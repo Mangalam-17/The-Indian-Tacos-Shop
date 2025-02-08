@@ -23,7 +23,7 @@ This HTML code creates a simple, multi-page tacos website showcasing about a lit
    4 - Contact Us, which gives the contact details to reach us
 ## Demo
 
-Live - https://mangalam-17.github.io/Tacos-Shop/
+Live - https://mangalam-17.github.io/The-Indian-Tacos-Shop/
 
 ## Lessons Learned
 
