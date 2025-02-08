@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Mangalam Mishra" />
+    <meta
+      name="description"
+      content="Contact Information for The Indian Tacos Shop"
+    />
+    <title>Contact Us - The Indian Tacos Shop</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/#about"
+              >About <abbr title="The Indian Tacos Shop">LTS</abbr></a
+            >
+          </li>
+          <li>
+            <a href="/#menu">Our Menu</a>
+          </li>
+          <li>
+            <a href="hours.html">Store Hours</a>
+          </li>
+        </ul>
+      </nav>
+
+      <figure>
+        <img
+          src="images/contact.jpg"
+          alt="Little Tacos Shop Tacos"
+          title="Tacos ready to eat"
+          width="700"
+          height="360"
+        />
+        <figcaption>Indian Tacos !</figcaption>
+      </figure>
+    </header>
+    <hr />
+    <main>
+      <section>
+        <h2>Our Contact Form</h2>
+
+        <form action="https://httpbin.org/get" method="get">
+          <fieldset>
+            <legend>Send Us a Message</legend>
+            <p>
+              <label for="name">Name : </label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="your name"
+                required
+              />
+            </p>
+            <p>
+              <label for="email">Email : </label>
+              <input
+                type="text"
+                name="email"
+                id="email"
+                placeholder="your email"
+                required
+              />
+            </p>
+            <p>
+              <label for="message">Your Message : </label>
+              <br />
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+                placeholder="type your message"
+              ></textarea>
+            </p>
+          </fieldset>
+          <button type="submit">Send</button>
+          <button type="reset">Reset</button>
+        </form>
+      </section>
+      <section>
+        <h2>Our Location</h2>
+        <address>
+          City Pulse Mall, Shop No. 235, 2nd Floor, Narayan Singh Rd, Jaipur,
+          Rajasthan 302004, India
+          <br />
+          <br />
+          Phone: <a href="tel:+99 99999999">99999-99999</a>
+        </address>
+      </section>
+    </main>
+    <hr />
+    <footer>
+      <p>Copyright &copy; The Indian Tacos Shop</p>
+    </footer>
+  </body>
+</html>
